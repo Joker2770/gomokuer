@@ -19,8 +19,6 @@ Day 3: QQ游戏大厅五子棋高分区, 执白高胜率.
 
 Day N: 执黑（非必胜开局）击败弈心2015
 
-![image](https://github.com/zhongjn/gomokuer/blob/master/vs_Yixin_2015.gif)
-
 # 可能需要
 
 Windows 10; NVIDIA显卡; Python 3.6; VS 2017; CUDA 9.1; PyTorch 0.3.0
@@ -55,7 +53,7 @@ Windows 10; NVIDIA显卡; Python 3.6; VS 2017; CUDA 9.1; PyTorch 0.3.0
 
 打开命令行, cd到./py目录下. (历史遗留问题...)
 
-运行: ../gomokuer.exe play -w ../weights/122.pkl -k 48000 -c w
+运行: ..\msvs\x64\Release\gomokuer.exe play -w ../weights/122.pkl -k 48000 -c w
 
 -w: 要加载的权重
 
